@@ -46,8 +46,6 @@ Captured vehicle images are processed on a backend server to automatically ident
 A YOLO-based object detection model is used to localize the license plate region, followed by OCR
 to extract the alphanumeric plate number.
 
-The code for this part hasn't been included since it's more of a proof-of-concept section still under work.
-
 ![License Plate Detection Result](docs/plate_detection.png)
 
 
@@ -67,3 +65,4 @@ docs/ -> System diagrams and screenshots
 - WiFi credentials and server configuration are stored in `config.h` (not tracked)
 
 - The system is designed to be modular and scalable
+
