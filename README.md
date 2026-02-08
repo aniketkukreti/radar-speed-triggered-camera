@@ -40,6 +40,17 @@ A Flask server processes images sent by the ESP32-CAM:
 - YOLO model detects license plate regions
 - OCR extracts alphanumeric plate information
 
+## License Plate Detection & Recognition
+
+Captured vehicle images are processed on a backend server to automatically identify license plates.
+A YOLO-based object detection model is used to localize the license plate region, followed by OCR
+to extract the alphanumeric plate number.
+
+The code for this part hasn't been included since it's more of a proof-of-concept section still under work.
+
+![License Plate Detection Result](docs/plate_detection.png)
+
+
 ## Hardware Used
 - ESP8266 NodeMCU
 - ESP32-CAM (AI Thinker)
@@ -54,4 +65,5 @@ docs/ -> System diagrams and screenshots
 
 ## Notes
 - WiFi credentials and server configuration are stored in `config.h` (not tracked)
+
 - The system is designed to be modular and scalable
